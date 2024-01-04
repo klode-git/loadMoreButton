@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  color: lightgrey;
+  font-weight: 600;
+}
+
+header p {
+  font-style: italic;
+  margin: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+main img {
+  width: 23%;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  display: flex;
+  margin: 20px auto; 
+  padding: 5px 10px;
+}
